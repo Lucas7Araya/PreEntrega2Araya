@@ -1,0 +1,613 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:active {
+    font-size: 23px;
+    text-decoration: none;
+    color: rgb(255, 253, 253)
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    font-size: large;
+    width: 100%;
+}
+
+/*-------HEADER-------*/
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 18, 32);
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 50px;
+}
+
+.w-img {
+    border-radius: 60px;
+}
+
+.f-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.f-ul li {
+    margin: 10px 60px;
+}
+
+.f-ul li a:hover {
+    background-color: rgb(223, 129, 29);
+    transform: scale(2);
+    transition: all 1s ease;
+    color: rgb(6, 18, 32);
+}
+
+
+
+/*------- FIN HEADER-------*/
+
+/*-------MAIN-------*/
+
+/*-------INDEX-------*/
+.border-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(250, 243, 237)
+}
+
+.contenido-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(6, 18, 32);
+    padding: 30px;
+    font-size: 27px;
+    width: 100%;
+}
+.contenido-main p{
+    margin: 20px;
+}
+
+
+/*-------FIN INDEX-------*/
+
+/*-------FIN MAIN-------*/
+
+/*-------FOOTER-------*/
+.pie-pagina {
+    background-color: rgb(223, 129, 29);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenido-pie {
+    color: rgb(255, 255, 255);
+}
+
+.redes a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(2);
+    transition: all 1s ease;
+    color: rgb(6, 18, 32);
+}
+
+
+/*-------FIN FOOTER-------*/
+
+/*-------HEADER CLASES-------*/
+.encabezado-clases {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 18, 32);
+    padding: 15px;
+}
+
+
+.f-ul-clases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.f-ul-clases li {
+    margin: 10px 60px;
+}
+
+.f-ul-clases li a:hover {
+    background-color: rgb(223, 129, 29);
+    transform: scale(2);
+    transition: all 1s ease;
+    color: rgb(6, 18, 32);
+}
+
+/*------- FIN HEADER CLASES-------*/
+
+/*-------MAIN CLASES-------*/
+
+
+.contenido-clases {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 252, 252);
+    padding: 50px;
+    align-items: center;
+}
+
+.contenido-clases p{
+    margin: 20px;
+}
+
+.cuerpo-horarios {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.cuerpo-tabla {
+    border: 2px solid rgb(6, 18, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla-horarios tr td {
+    border: 3px solid rgb(6, 18, 32);
+    text-align: center;
+    margin: 20px;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*-------FIN MAIN CLASES-------*/
+
+/*-------FOOTER CLASES-------*/
+
+.pie-clases {
+    background-color: rgb(223, 129, 29);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes-clases a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.redes-clases a i:hover {
+    transform: scale(2);
+    transition: all 1s ease;
+    color: rgb(6, 18, 32);
+}
+
+/*-------FIN FOOTER CLASES-------*/
+
+
+/*-------CAPACITACIONES-------*/
+
+.navbar{
+    background-color: rgb(6, 18, 32);
+}
+
+.nav-link{
+    color: #fff;
+    text-shadow: 0 0 5px rgb(180, 138, 74);
+    text-transform: capitalize;
+}
+
+.nav-link:hover{
+    color: rgb(223, 129, 29)
+}
+
+.navbar-toggler-icon{
+    box-shadow: 0 0 5px rgb(180, 138, 74);   
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)),url(../img/capacitaciones1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    border-radius: 0;
+    margin: 0;
+}
+
+h2{
+    background-color: rgb(6, 18, 32);
+    color: rgba(255, 255, 255, 0.116);
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.row{
+    margin-right: 0px;
+}
+
+.nleft{
+    background-image: url(../img/capacitaciones3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+}
+
+.nright h3{
+    text-align: center;
+    color: #000;
+}
+
+.nright1{
+    background-image: url(../img/capacitaciones2.jpg);
+    background-size:cover ;
+    background-position: center;
+    height: 450px;
+}
+
+.nleft1 h3{
+    text-align: center;
+    color: #000;
+}
+
+.nleft2{
+    background-image: url(../img/capacitaciones4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nright2 h3{
+    text-align: center;
+    color: #000;
+}
+
+.nright3{
+    background-image: url(../img/natacion1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nleft3 h3{
+    text-align: center;
+    color: #000;
+}
+
+/*-------FIN CAPACITACIONES-------*/
+
+
+/*------- ENTRENAMIENTO-------*/
+
+.jumbotron1{
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)),url(../img/Entrenamiento1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 0;
+    margin: 0;
+}
+
+.nleft-entrenam{
+    background-image: url(../img/entrenamiento2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nright-entrenam h3{
+    text-align: center;
+    color: #000;
+}
+/*-funcional inicio-*/
+.funcional{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(6, 18, 32);
+}
+
+.item{
+    height: 350px;
+    border: 2px solid #000;
+}
+
+.item1{
+    background-image: url(../img/funcional.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item2{
+    background-image: url(../img/funcional2.jpg);
+    background-size: cover;  
+}
+.item3{
+    background-image: url(../img/funcional\ 4.jpg);
+    background-size: cover;
+    background-position:center;   
+}
+.item4{
+    background-image: url(../img/funcional3.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+/*-funcional fin-*/
+
+/*-running inicio-*/
+
+.running{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(6, 18, 32);
+}
+
+.item5{
+    background-image: url(../img/running1.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item6{
+    background-image: url(../img/running2.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item7{
+    background-image: url(../img/running3.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item8{
+    background-image: url(../img/running4.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+/*-running fin-*/
+
+/*-ciclismo inicio-*/
+
+.ciclismo{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(6, 18, 32);
+}
+
+.item9{
+    background-image: url(../img/ciclismo1.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item10{
+    background-image: url(../img/ciclismo2.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item11{
+    background-image: url(../img/ciclismo3.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item12{
+    background-image: url(../img/ciclismo4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*-ciclismo fin-*/
+
+/*-natacion inicio-*/
+.natacion{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(6, 18, 32);
+}
+
+.item13{
+    background-image: url(../img/natacion1.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item14{
+    background-image: url(../img/natacion2.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item15{
+    background-image: url(../img/natacion3.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item16{
+    background-image: url(../img/natacion4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*-natacion fin-*/
+
+/*-tria inicio-*/
+.tria{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(6, 18, 32);
+}
+
+.item17{
+    background-image: url(../img/tria1.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item18{
+    background-image: url(../img/tria2.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item19{
+    background-image: url(../img/tria3.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.item20{
+    background-image: url(../img/tria4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*-tria fin-*/
+
+/*-------FIN ENTRENAMIENTO-------*/
+
+
+/*-------FOOTER ENTRENAMIENTO-------*/
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+footer i{
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: rgb(27, 115, 216);
+}
+
+footer i:hover{
+    text-shadow: 0 0 5px rgb(223, 129, 29);
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+
+
+/*-------FIN FOOTER ENTRENAMIENTO-------*/
+
+
+/*-------HEADER CONTACTO-------*/
+
+.encabezado-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 18, 32);
+    padding: 15px;
+}
+
+.f-ul-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.f-ul-contact li {
+    margin: 10px 60px;
+}
+
+.f-ul-contact li a:hover {
+    background-color: rgb(223, 129, 29);
+    transform: scale(2);
+    transition: all 1s ease;
+    color: rgb(6, 18, 32);
+}
+
+/*-------FIN HEADER CONTACTO-------*/
+
+/*-------MAIN CONTACTO-------*/
+
+.titulo-contact h1 {
+
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.titulo-contact h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1opx;
+}
+
+.form-contact {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+form {
+    justify-content: center;
+    margin: 50px;
+    width: 300px;
+    background-color: rgb(6, 18, 32);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.form-textarea {
+    background-color: rgb(231, 182, 77);
+}
+
+
+/*-------FIN MAIN CONTACTO-------*/
+
+/*-------FOOTER CONTACTO-------*/
+
+.pie-contact {
+    background-color: rgb(223, 129, 29);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes-contact a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.redes-contact a i:hover {
+    transform: scale(2);
+    transition: all 1s ease;
+    color: rgb(6, 18, 32);
+}
+
+/*-------FIN FOOTER CONTACTO-------*/

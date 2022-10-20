@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/descarga.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/44efcd7df9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="encabezado-contact">
+        <div class="logo">
+            <img class="w-img" src="../img/descarga.jpg" alt="logo">
+        </div>
+        <nav>
+            <ul class="f-ul-contact">
+                <li><a href="../index.html">Home</a> </li>
+                <li><a href="clases.html">Clases</a></li>
+                <li><a href="capacitaciones.html">Capacitaciones</a></li>
+                <li><a href="entrenamiento.html">Entrenamiento</a></li>
+                <li><a href="contacto.html">Hazte Miembro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="titulo-contact">
+        <h1>BIENVENIDO A AETHLOS</h1>
+        <h2>¡Sumate!</h2>
+        <div class="form-contact">
+            <form action="./contacto.html" method="post" enctype="application/x-www-form-urlencoded">
+                <p>
+                    <label for="nombre">Nombre</label>
+                </p>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <br>
+                <p>
+                    <label for="apellido">Apellido</label>
+                </p>
+                <input type="text" name="apellido" placeholder="Apellido">
+                <br>
+                <p>
+                    <label for="email">Email</label>
+                </p>
+                <input type="text" name="email" placeholder="Email">
+                <br>
+                <p>
+                    <label for="nombre">Escribe un mensaje</label>
+                </p>
+                <textarea name="mensaje" cols="30" rows="10" class="form-textarea"></textarea>
+                <br>
+                <input type="button" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <footer class="pie-contact">
+        <p>TEL:123456789</p>
+        <div class="redes-contact">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
